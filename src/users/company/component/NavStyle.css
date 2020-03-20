@@ -1,0 +1,24 @@
+.bgDash{
+    background-color: #F0f0f0;
+}
+.topnav{
+    height: 60px;
+    background-color: #fff;
+
+    --nav-toggle: flex;
+}
+
+.topnav ul {
+    display: flex;
+    list-style: none;
+}
+
+.topnav ul li {
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.topnav ul li a {
+    text-decoration: none;
+    color: #3A314E;
+}

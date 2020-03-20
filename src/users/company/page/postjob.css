@@ -1,0 +1,127 @@
+.bgPost{
+    height: 450px;
+    background-color: #3A314E;
+}
+
+.inside{
+    margin: 25px;
+}
+.FormSpace{
+
+    margin-top: 50px;
+
+}
+.btnMain{
+    background-color: #FF631A;
+    color: #F7F7F7;
+}
+.btnMain:hover{
+    color: #F7F7F7;
+    text-decoration: none;
+}
+.btn-Second{
+    background-color: #3A314E;
+    color: #F7F7F7;
+}
+.formSpace label{
+    font-weight: 700; color:#3A314E;
+    line-height: 1.4;
+}
+.header-title h2{
+    font-size: 32px;
+    line-height: 1.37;
+    margin-bottom: 12px;
+    color: white;
+}
+.header-title span {
+    color: #F7F7F7;}
+#the-count {
+    float: left;
+    padding: 0.1rem 0 0 0;
+    font-size: 0.875rem;
+    color: gray;
+}
+
+label.file-upload {
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    float: right;
+}
+input[type="file"] {
+    position: absolute;
+    float: left;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.fa-cloud-upload-alt{
+    margin-right: 5px;
+}
+
+
+.card-input-element+.card {
+    width: 245px;
+}
+
+.card-input-element+.card:hover {
+    cursor: pointer;
+}
+
+.card-input-element:checked+.card {
+    border: 1px solid #FF631A;
+    -webkit-transition: border .3s;
+    -o-transition: border .3s;
+    transition: border .3s;
+}
+
+
+@-webkit-keyframes fadeInCheckbox {
+    from {
+        opacity: 0;
+        -webkit-transform: rotateZ(-20deg);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: rotateZ(0deg);
+    }
+}
+
+@keyframes fadeInCheckbox {
+    from {
+        opacity: 0;
+        transform: rotateZ(-20deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateZ(0deg);
+    }
+}
+
+
+.formSpace{
+    margin-top: 40px;
+}
+
+.fa-paperclip {
+    margin-right: 5px;
+}
+
+#the-count #maximum a{
+    margin-right: 15px;
+}
+
+.RadioChoose ul li{
+    list-style: none;
+}
+.RadioChoose i {
+    padding-left: 50%;
+}

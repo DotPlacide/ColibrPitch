@@ -1,0 +1,45 @@
+.bgWhite{
+    background-color: white;
+}
+.spanAll{
+    margin-top: -36px;
+}
+
+.card-body .fa-file {
+    height: 77px;
+    color: #FF631A;
+    margin-bottom: 30px;
+}
+
+.cardCenter{
+    text-align: center;
+}
+
+.cardDash{
+    -webkit-box-shadow: 0 0 4px 0 rgba(0,0,0,.08), 0 2px 4px 0 rgba(0,0,0,.12);
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.08), 0 2px 4px 0 rgba(0,0,0,.12);
+    margin-bottom: 20px;
+}
+
+.itemCArd{
+    border-bottom: 2px solid #F0f0f0;
+}
+
+.itemCArd .row span {
+    margin-left: 15px;
+}
+
+.Templates .fa-file-alt{
+    width: 25px;
+    margin-left: 15px
+}
+
+.Templates .special{
+    margin-left: 35px;
+    font-size: 25px;
+    margin-top: -10px;
+}
+
+.fontContent{
+    font-size: 13px;
+}

@@ -1,0 +1,93 @@
+.navMenu{
+    padding: 20px;
+    color: white;
+}
+.nav-item a {
+    color: white;
+}
+
+.mr-auto li a {
+    margin-right: 38px;
+}
+.ml-auto li a {
+    margin-left: 25px;
+}
+.bgeader{
+    background: url(../../../image/gb2.png) center center no-repeat;
+    background-size: cover;
+    height: 590px;
+}
+.overlayBg{
+    background-color: rgba(60,30,30,0.87);
+}
+.banner-headline-alt h3 strong {
+    font-weight: 400;
+    display: block;
+    font-size: 38px;
+    color: #FF631A;
+    margin-top: 100px;
+
+}
+
+.btn-search a {
+    color: #F7F7F7;
+    text-decoration: none;
+}
+.banner-headline-alt span {
+    font-size: 24px;
+    color: #3A314E;
+    font-weight: 300;
+    line-height: 36px;
+    display: block;
+    margin-top: 1px;
+    margin-bottom: 50px;
+    letter-spacing: -0.5px;
+}
+
+body .typed-words {
+    display: inline-block;
+}
+
+body .typed-cursor.typed-cursor--blink {
+    animation: typedjsBlink 1.5s infinite;
+}
+
+.ripple-effect label {
+    color: white;
+}
+
+.fied-search label{
+    width: 218px;
+    padding: 10px;
+    background: rgba(58, 49, 78, 0.12);
+
+}
+.fied-search input {
+width: 356px;
+height: 70px;
+}
+
+.fied-search .card {
+    border-right: 1px solid #e4e4e4;
+    border-radius: unset;
+    padding: 25px;
+}
+
+.oersi {
+    height: 70px;
+}
+.btn-search{
+    background-color: #FF631A;
+    color: #F7F7F7;
+}
+.fied-search button{
+    width: 150px;
+    height: 70px;
+    margin-top: 64px;
+    position: relative;
+    border-radius: unset;
+}
+
+.distant{
+    margin-bottom: 20px;
+}

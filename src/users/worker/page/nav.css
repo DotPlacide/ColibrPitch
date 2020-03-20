@@ -1,0 +1,52 @@
+.bgDashworker{
+    background-color: #F0f0f0;
+}
+.topnav{
+    height: 70px;
+    background-color: #fff;
+    --nav-toggle: flex;
+}
+
+.topnav ul {
+    display: flex;
+    list-style: none;
+}
+
+.topnav ul li {
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.topnav ul li a {
+    text-decoration: none;
+}
+
+.input-group .has-search{
+    border-radius: unset;
+}
+.input-group-append button{
+    border-radius: unset;
+}
+
+.down-search{
+    margin-bottom: 70px;
+}
+
+.HoverCard:hover{
+    border-left: 4px solid #FF631A ;
+    background-color: #f8f8f8;
+}
+.hoverTitle > a:hover{
+   color: #FF631A;
+}
+
+.topDash{
+    margin-top: 108px;
+    border-top-left-radius: unset;
+}
+
+.bgSide{
+    background-color: #3A314E;
+    color: #f8f8f8;
+}
+

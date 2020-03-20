@@ -1,0 +1,17 @@
+.new-category-box {
+    align-content: center;
+    display: flex;
+    text-align: left;
+    padding: 25px;
+    border-radius: 4px;
+    background: #f8f8f8;
+    position: relative;
+    box-sizing: border-box;
+    color: #282c34;
+    border: 1px solid #3A314E;
+    height: 350px;
+}
+
+.category-box-content {
+
+}
