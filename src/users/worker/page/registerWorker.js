@@ -15,7 +15,7 @@ const RegisterWorker = () => {
         e.preventDefault()
         console.log({fullName , email , age , availability , category , country  , testScore , password})
         // Do Axios Post Request Here
-        axios.post('http://localhost:5000/becomeAworker' , worker,{ headers:{'Content-Type': 'application/json'}}).then(res => console.log(res.data))
+        axios.post(`${process.env.API}/becomeAworker`, worker,{ headers:{'Content-Type': 'application/json'}}).then(res => console.log(res.data))
             .catch(err => console.log(err));
 
     };

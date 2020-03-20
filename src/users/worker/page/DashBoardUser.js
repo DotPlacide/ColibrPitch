@@ -8,7 +8,7 @@ const DashBoardUser = ()=> {
         const [Project , setProject] = useState([]);
 
         useEffect(()=>{
-            axios.get('http://localhost:5000/project' ).then(response =>{
+            axios.get(`${process.env.API}/project` ).then(response =>{
                 console.log(response);
                 setProject(response.data)
             }).catch(err => console.log(err))

@@ -11,7 +11,7 @@ const LoginWorker = () => {
     };
     const submit = e => {
         e.preventDefault();
-        axios.get('http://localhost:5000/workerauth' , worker);
+        axios.get(`${process.env.API}/workerauth`, worker);
         console.log({email , password})
 
     };

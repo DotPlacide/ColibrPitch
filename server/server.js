@@ -1,5 +1,5 @@
 const express = require('express');
-
+require('dotenv').config();
 const app = express();
 const connectDB = require('./config/db');
 //connect to databse
@@ -8,7 +8,7 @@ app.use(express.json({extended:true}));
 app.use(function (req, res, next) {
 
     // Website you wish to allow to connect
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
+    res.setHeader('Access-Control-Allow-Origin', '*');
 
     // Request methods you wish to allow
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
@@ -41,6 +41,8 @@ app.use('/companyauth' , require('./routes/companyauth'));
 //jobs list
 app.use('/project' ,require('./routes/project'));
 app.use('/project/:id',require('./routes/project'));
+
+process.env.NODE_ENV = 'production'
 // Client Route
 if(process.env.NODE_ENV === 'production') {
     const path = require('path');
