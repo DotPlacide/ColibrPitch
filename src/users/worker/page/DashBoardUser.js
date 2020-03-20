@@ -8,7 +8,7 @@ const DashBoardUser = ()=> {
         const [Project , setProject] = useState([]);
 
         useEffect(()=>{
-            axios.get(`${process.env.API}/project` ).then(response =>{
+            axios.get(`${process.env.REACT_APP_API}/project` ).then(response =>{
                 console.log(response);
                 setProject(response.data)
             }).catch(err => console.log(err))

@@ -12,7 +12,7 @@ const LoginCompany = () => {
 
     const submit = e => {
         e.preventDefault();
-        axios.get(`${process.env.API}/companyauth` , company);
+        axios.get(`${process.env.REACT_APP_API}/companyauth` , company);
         console.log({email , password})
 
     };

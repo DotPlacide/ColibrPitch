@@ -12,7 +12,7 @@ const RegisterCompany = () => {
         e.preventDefault()
         console.log({fullName , email , country  ,size, password})
         // Do Axios Post Request Here
-        axios.post(`${process.env.API}/companyregister` , company,{ headers:{'Content-Type': 'application/json'}}).then(res => console.log(res.data))
+        axios.post(`${process.env.REACT_APP_API}/companyregister` , company,{ headers:{'Content-Type': 'application/json'}}).then(res => console.log(res.data))
             .catch(err => console.log(err));
 
     };

@@ -13,7 +13,7 @@ const PostJob = () => {
     const submitjob = e => {
         e.preventDefault()
         // Do Axios Post Request Here
-        axios.post(`${process.env.API}/postjob` , jobs,{ headers:{'Content-Type': 'application/json'}}).then(res => console.log(res.data))
+        axios.post(`${process.env.REACT_APP_API}/postjob` , jobs,{ headers:{'Content-Type': 'application/json'}}).then(res => console.log(res.data))
             .catch(err => console.log(err));
     };
 

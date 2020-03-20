@@ -11,7 +11,7 @@ const LoginWorker = () => {
     };
     const submit = e => {
         e.preventDefault();
-        axios.get(`${process.env.API}/workerauth`, worker);
+        axios.get(`${process.env.REACT_APP_API}/workerauth`, worker);
         console.log({email , password})
 
     };
